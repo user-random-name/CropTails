@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://cjga8o478t8dq"]
 
 [ext_resource type="Texture2D" uid="uid://bj8ib1q3tej6n" path="res://asset/game/Objects/Basic_Grass_Biom_things.png" id="1_a8qts"]
-[ext_resource type="Shader" uid="uid://dffs8motyqtje" path="res://scenes/objects/trees/tree_shake.gdshader" id="1_w057i"]
+[ext_resource type="Shader" uid="uid://dffs8motyqtje" path="res://scenes/objects/shake.gdshader" id="1_w057i"]
 [ext_resource type="Script" uid="uid://bj3de2s1p1hi5" path="res://scenes/objects/trees/small_tree.gd" id="2_g5iuu"]
 [ext_resource type="PackedScene" uid="uid://cy2hemclpgois" path="res://scenes/components/hurt_component.tscn" id="2_xyb6m"]
 [ext_resource type="PackedScene" uid="uid://bckgf8ogr50p6" path="res://scenes/components/damage_component.tscn" id="3_au4vd"]
