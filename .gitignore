@@ -1,22 +1,12 @@
-# Godot-specific ignores
-.import/
-export.cfg
-export_presets.cfg
+# Ignore everything by default
+*
 
-# Godot 4 cache files
-.godot/
-.cache/
+# Allow folders (so the folder structure appears)
+!*/
 
-# System / editor / OS files
-.DS_Store
-Thumbs.db
+# Allow .gd scripts
+!*.gd
 
-# Compiled or temporary files
-*.tmp
-*.log
-
-# Mono / C# projects (ignore if you don't use C#)
-.mono/
-*.csproj
-*.sln
+# Allow the .gitignore itself
+!.gitignore
 
