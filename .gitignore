@@ -1,3 +1,22 @@
-# Godot 4+ specific ignores
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Godot 4 cache files
 .godot/
-/android/
+.cache/
+
+# System / editor / OS files
+.DS_Store
+Thumbs.db
+
+# Compiled or temporary files
+*.tmp
+*.log
+
+# Mono / C# projects (ignore if you don't use C#)
+.mono/
+*.csproj
+*.sln
+
