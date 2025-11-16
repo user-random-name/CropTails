@@ -9,7 +9,7 @@ vertices = PackedVector2Array(405.03906, 138.85938, 355.97656, 250.13281, 275.03
 polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3, 4, 5)])
 outlines = Array[PackedVector2Array]([PackedVector2Array(210, 127, 285, 99, 419, 132, 363, 259, 272, 276, 216, 225)])
 
-[node name="TestSceneNPSChicken" type="Node2D"]
+[node name="TestSceneNPCChicken" type="Node2D"]
 y_sort_enabled = true
 
 [node name="GameTileMap" type="Node2D" parent="."]

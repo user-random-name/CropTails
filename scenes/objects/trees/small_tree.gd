@@ -27,5 +27,5 @@ func on_max_damage_reached() -> void:
 
 func add_log_scene() -> void:
 	var log_instance = log_scene.instantiate() as Node2D
-	log_instance.global_position = global_position + Vector2(-7, 22)  # tweak Y offset
+	log_instance.global_position = global_position #+ Vector2(-7, 22)  
 	get_parent().add_child(log_instance)

@@ -9,3 +9,12 @@ WaterCrops,
 PlantCorn,
 PlantTomato
 }
+
+enum GrowthStates {
+	Seed,
+	Germination,
+	Vegetative,
+	Reproduction,
+	Maturity,
+	Harvesting
+}

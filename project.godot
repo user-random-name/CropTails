@@ -14,6 +14,12 @@ config/name="CropTail"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+ToolManager="*res://script/globals/tool_manager.gd"
+InventoryManager="*res://script/globals/inventory_manager.gd"
+DayAndNightCycleManager="*res://script/globals/day_and_night_cycle_manager.gd"
+
 [display]
 
 window/size/viewport_width=640
@@ -33,6 +39,10 @@ folder_colors={
 "res://script/": "pink",
 "res://script/state_machine/": "orange"
 }
+
+[global_group]
+
+navigation_polygon_source_geometry_group=""
 
 [input]
 
@@ -71,9 +81,11 @@ hit={
 2d_physics/layer_1="Ground"
 2d_navigation/layer_1="Chicken Navigation"
 2d_physics/layer_2="Player"
+2d_navigation/layer_2="Cow Navigation"
 2d_physics/layer_3="Interactable"
 2d_physics/layer_4="Tool"
 2d_physics/layer_5="Object"
+2d_physics/layer_6="NPC"
 
 [rendering]
 

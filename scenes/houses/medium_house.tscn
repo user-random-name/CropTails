@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=4 uid="uid://76vhk0b57ha8"]
 
-[ext_resource type="TileSet" uid="uid://bm72rj6m6f6hj" path="res://Tilesets/house_tipe_set.tres" id="1_xnliw"]
+[ext_resource type="TileSet" uid="uid://dwh5gfo5bg2lu" path="res://Tilesets/house_tipe_set.tres" id="1_xnliw"]
 
 [node name="MediumHouse" type="Node2D"]
 
