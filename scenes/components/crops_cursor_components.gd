@@ -74,4 +74,4 @@ func remove_crop() -> void:
 		for node in crop_nodes:
 			if node.global_position == local_cell_position:
 				if node.has_signal("is_crop"):
-					node._on_crop_harvesting()
+					node.on_crop_harvesting()
