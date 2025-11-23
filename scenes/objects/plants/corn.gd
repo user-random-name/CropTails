@@ -10,6 +10,7 @@ var corn_harvest_scene = preload("res://scenes/objects/plants/corn_harvest.tscn"
 
 var growth_state: DataTypes.GrowthStates = DataTypes.GrowthStates.Seed
 
+signal is_crop
 
 func _ready() -> void:
 	watering_particles.emitting = false

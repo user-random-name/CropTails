@@ -8,6 +8,8 @@ var tomato_harvest_scene = preload("res://scenes/objects/plants/tomato_harvest.t
 @onready var growth_cycle_component: GrowthCycleComponent = $GrowthCycleComponent
 @onready var hurt_component: HurtComponent = $HurtComponent
 
+signal is_crop
+
 var growth_state: DataTypes.GrowthStates = DataTypes.GrowthStates.Seed
 var start_tomato_frame_offset: int = 6
 
