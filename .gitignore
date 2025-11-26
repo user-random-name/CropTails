@@ -1,12 +1,47 @@
-# Ignore everything by default
-*
+# ============================
+# GODOT PROJECT IGNORE RULES
+# ============================
 
-# Allow folders (so the folder structure appears)
-!*/
+# Godot-specific
+.import/
+export_presets.cfg
+.godot/
 
-# Allow .gd scripts
-!*.gd
+# Mono (if using C#)
+.mono/
+data_*/
 
-# Allow the .gitignore itself
-!.gitignore
+# Build artifacts
+bin/
+build/
+export/
 
+# Temporary or editor files
+*.tmp
+*.temp
+*.log
+*.cfg~
+*.backup
+*.old
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (Rider, CLion)
+.idea/
+
+# OS-specific
+ehthumbs.db
+desktop.ini
+
+# Python virtualenvs (if tooling around)
+venv/
+env/
+
+# Packed/Generated assets
+*.import
